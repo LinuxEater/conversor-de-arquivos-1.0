@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.converter-box {
+    max-width: 500px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
