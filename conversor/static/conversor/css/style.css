@@ -52,53 +52,34 @@ body {
   margin-bottom: 0 !important;
 }
 
-/* Style geral do container */
 .container {
+  margin-top: 50px;
+  margin-bottom: 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #e0e0e0;
-  background: #121212;
-  padding: 40px 20px;
-  border-radius: 12px;
-  box-shadow:
-    0 0 8px #ff0099,
-    0 0 20px #6600cc,
-    inset 0 0 30px #ff33cc;
+  color: #333;
 }
 
-/* Estilo da imagem */
-img {
+/* Imagem arredondada com sombra suave */
+.img-fluid.rounded.shadow {
+  border-radius: 50% !important; /* arredondar cantos */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* sombra leve */
   max-width: 100%;
-  border-radius: 15px;
-  box-shadow:
-    0 0 15px #ff00cc,
-    0 0 30px #9900ff;
-  transition: transform 0.3s ease;
-}
-
-img:hover {
-  transform: scale(1.05);
-  box-shadow:
-    0 0 25px #ff00cc,
-    0 0 40px #cc00ff;
+  height: auto;
 }
 
 /* Títulos */
 h1, h3 {
-  color: #ff33cc;
-  text-shadow:
-    0 0 8px #ff33cc,
-    0 0 15px #cc00ff;
+  color: #222;
+  font-weight: 600;
 }
 
 /* Parágrafos */
 p {
   font-size: 1.1rem;
   line-height: 1.6;
-  margin-bottom: 1.5rem;
-  color: #d0d0d0;
 }
 
-/* Lista de links de contato */
+/* Lista de links */
 ul {
   list-style-type: none;
   padding-left: 0;
@@ -109,17 +90,20 @@ ul li {
 }
 
 ul li a {
-  color: #ff66cc;
   text-decoration: none;
-  font-weight: 600;
+  color: #007BFF;
   transition: color 0.3s ease;
 }
 
 ul li a:hover {
-  color: #ff00cc;
-  text-shadow:
-    0 0 8px #ff00cc,
-    0 0 12px #ff66cc;
+  color: #0056b3;
+}
+
+/* Fundo da página */
+body {
+  background-color: #f9f9f9; /* quase branco, clean */
+  margin: 0;
+  padding: 0;
 }
 
 /* Responsividade */
