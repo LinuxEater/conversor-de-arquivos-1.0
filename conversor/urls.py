@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.converter_txt_pdf, name='converter'),
+    path('', views.converter, name='converter'),
+    path('about/', views.converter, name='about'),
 ]
