@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% block title %}Planos e Preços{% endblock %}
+
+{% block content %}
+<h2 class="text-center mb-5">Escolha seu Plano</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <!-- Plano Grátis -->
+  <div class="col">
+    <div class="card h-100 border-primary">
+      <div class="card-header bg-primary text-white text-center">
+        Grátis
+      </div>
+      <div class="card-body">
+        <h3 class="card-title text-center">R$ 0/mês</h3>
+        <ul class="list-group list-group-flush my-3">
+          <li class="list-group-item">5 conversões por dia</li>
+          <li class="list-group-item">Arquivos até 50MB</li>
+          <li class="list-group-item text-muted">Sem suporte prioritário</li>
+        </ul>
+        <div class="d-grid">
+          <a href="#" class="btn btn-outline-primary">Usar Grátis</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Plano Padrão -->
+  <div class="col">
+    <div class="card h-100 border-success">
+      <div class="card-header bg-success text-white text-center">
+        Padrão
+      </div>
+      <div class="card-body">
+        <h3 class="card-title text-center">R$ 19,90/mês</h3>
+        <ul class="list-group list-group-flush my-3">
+          <li class="list-group-item">Conversões ilimitadas</li>
+          <li class="list-group-item">Arquivos até 500MB</li>
+          <li class="list-group-item">Suporte via e-mail</li>
+        </ul>
+        <div class="d-grid">
+          <a href="#" class="btn btn-success">Assinar Plano</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Plano Profissional -->
+  <div class="col">
+    <div class="card h-100 border-dark">
+      <div class="card-header bg-dark text-white text-center">
+        Profissional
+      </div>
+      <div class="card-body">
+        <h3 class="card-title text-center">R$ 39,90/mês</h3>
+        <ul class="list-group list-group-flush my-3">
+          <li class="list-group-item">Tudo do plano anterior</li>
+          <li class="list-group-item">Conversão em lote</li>
+          <li class="list-group-item">Suporte prioritário</li>
+        </ul>
+        <div class="d-grid">
+          <a href="#" class="btn btn-dark">Começar Agora</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+
