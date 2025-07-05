@@ -3,14 +3,21 @@
 
 {% block content %}
 <div class="container my-5">
-  <h1 class="mb-4">Sobre Mim</h1>
-  <p>Olá! Eu sou Moisés Souza, engenheiro de software com experiência em desenvolvimento web, mobile e cibersegurança. Estou sempre em busca de novos desafios e aprendizado constante para evoluir na carreira.</p>
+  <div class="row align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="{% static 'conversor/img/image-cyber.jpg' %}" alt="Programador Cyberpunk" class="img-fluid rounded shadow">
+    </div>
+    <div class="col-md-8">
+      <h1 class="mb-4">Sobre Mim</h1>
+      <p>Olá! Eu sou Moisés Souza, engenheiro de software com experiência em desenvolvimento web, mobile e cibersegurança. Estou sempre em busca de novos desafios e aprendizado constante para evoluir na carreira.</p>
 
-  <h3>Conecte-se comigo</h3>
-  <ul>
-    <li><a href="https://github.com/LinuxEater" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-    <li><a href="https://linkedin.com/in/moisés-souza-6746a3190/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-    <li><a href="mailto:moisessouzasantos001@gmail.com">Email</a></li>
-  </ul>
+      <h3>Conecte-se comigo</h3>
+      <ul>
+        <li><a href="https://github.com/LinuxEater" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/moisés-souza-6746a3190/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="mailto:moisessouzasantos001@gmail.com">Email</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
 {% endblock %}
